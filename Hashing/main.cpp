@@ -9,10 +9,27 @@
 #include <iostream>
 using namespace std;
 
+const int TABLE_SIZE = 31;
+const int DATA_SIZE = 12;
+
+int data[DATA_SIZE] = {
+    11, 77, 46, 15, 81, 50,
+    19, 85, 54, 23, 89, 58
+};
+
 int main() {
     cout << "MITAOE - Data Structures IA3" << endl;
     cout << "Personalized Hash Table" << endl;
     cout << "PRN: 202501100066" << endl;
 
+    cout << "\nPersonalized Dataset:" << endl;
+
+    for (int i = 0; i < DATA_SIZE; i++) {
+        cout << data[i] << " ";
+    }
+
+    cout << "\nTable Size: " << TABLE_SIZE << endl;
+
     return 0;
 }
+
