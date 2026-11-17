@@ -29,11 +29,19 @@ void initializeTable() {
     }
 }
 
-void insertWithoutCollisionHandling(int key) {
+void insertLinearProbing(int key) {
     int index = hashFunction(key);
+    int startIndex = index;
 
-    // This simple approach overwrites an existing key
-    // if another key has the same home index.
+    while (table[index] != -1) {
+        index = (index + 1) % TABLE_SIZE;
+
+        if (index == startIndex) {
+            cout << "Hash table is full!" << endl;
+            return;
+        }
+    }
+
     table[index] = key;
 }
 
@@ -56,10 +64,10 @@ int main() {
     initializeTable();
 
     for (int i = 0; i < DATA_SIZE; i++) {
-        insertWithoutCollisionHandling(data[i]);
+        insertLinearProbing(data[i]);
     }
 
-    cout << "Initial insertion without collision handling";
+    cout << "Hash Table using Linear Probing";
     displayTable();
 
     return 0;
