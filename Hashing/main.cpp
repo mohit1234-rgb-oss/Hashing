@@ -17,20 +17,50 @@ int data[DATA_SIZE] = {
     19, 85, 54, 23, 89, 58
 };
 
+int table[TABLE_SIZE];
+
 int hashFunction(int key) {
     return key % TABLE_SIZE;
 }
 
-int main() {
-    cout << "MITAOE - Data Structures IA3" << endl;
-    cout << "PRN: 202501100066" << endl;
+void initializeTable() {
+    for (int i = 0; i < TABLE_SIZE; i++) {
+        table[i] = -1;
+    }
+}
 
-    cout << "\nKey\tHome Index" << endl;
+void insertWithoutCollisionHandling(int key) {
+    int index = hashFunction(key);
+
+    // This simple approach overwrites an existing key
+    // if another key has the same home index.
+    table[index] = key;
+}
+
+void displayTable() {
+    cout << "\nIndex\tValue" << endl;
+
+    for (int i = 0; i < TABLE_SIZE; i++) {
+        cout << i << "\t";
+
+        if (table[i] == -1)
+            cout << "EMPTY";
+        else
+            cout << table[i];
+
+        cout << endl;
+    }
+}
+
+int main() {
+    initializeTable();
 
     for (int i = 0; i < DATA_SIZE; i++) {
-        cout << data[i] << "\t"
-             << hashFunction(data[i]) << endl;
+        insertWithoutCollisionHandling(data[i]);
     }
+
+    cout << "Initial insertion without collision handling";
+    displayTable();
 
     return 0;
 }
