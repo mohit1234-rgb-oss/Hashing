@@ -1,0 +1,53 @@
+MITAOE - Data Structures IA3
+PRN: 202501100066
+Hash Function: key % 31
+Collision Handling: Linear Probing
+
+Inserting Personalized Dataset:
+Inserted 11 at index 11
+Inserted 77 at index 15
+Inserted 46 at index 16
+Inserted 15 at index 17
+Inserted 81 at index 19
+Inserted 50 at index 20
+Inserted 19 at index 21
+Inserted 85 at index 23
+Inserted 54 at index 24
+Inserted 23 at index 25
+Inserted 89 at index 27
+Inserted 58 at index 28
+
+Final Hash Table
+------------------------
+Index	Value
+0	EMPTY
+1	EMPTY
+2	EMPTY
+3	EMPTY
+4	EMPTY
+5	EMPTY
+6	EMPTY
+7	EMPTY
+8	EMPTY
+9	EMPTY
+10	EMPTY
+11	11
+12	EMPTY
+13	EMPTY
+14	EMPTY
+15	77
+16	46
+17	15
+18	EMPTY
+19	81
+20	50
+21	19
+22	EMPTY
+23	85
+24	54
+25	23
+26	EMPTY
+27	89
+28	58
+29	EMPTY
+30	EMPTY
