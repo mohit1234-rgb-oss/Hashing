@@ -1,0 +1,110 @@
+commit 0f5d9c54217bba55faad48d4a1c4e4e44ed8ad75
+Author: Mohit <meditationmohit1234@gmail.com>
+Date:   2026-11-17 15:49:57 +0530
+
+    Add development and debugging log
+
+ Hashing/debugging_log.md | 29 +++++++++++++++++++++++++++++
+ 1 file changed, 29 insertions(+)
+
+commit d772e4a83da7cedab72e7c56cd732b0792acb691
+Author: Mohit <meditationmohit1234@gmail.com>
+Date:   2026-11-17 15:32:56 +0530
+
+    Complete hash table validation and display
+
+ Hashing/main.cpp | 49 ++++++++++++++++++++++++++++++++++++++-----------
+ 1 file changed, 38 insertions(+), 11 deletions(-)
+
+commit 34d4bd93c72b9f723f827621935befef1dc901e1
+Author: Mohit <meditationmohit1234@gmail.com>
+Date:   2026-11-17 15:28:34 +0530
+
+    Implement linear probing
+
+ Hashing/main.cpp | 18 +++++++++++++-----
+ 1 file changed, 13 insertions(+), 5 deletions(-)
+
+commit df053d2abf3eae9bcff384cc41cf50b5ef465996
+Author: Mohit <meditationmohit1234@gmail.com>
+Date:   2026-11-17 15:25:42 +0530
+
+    Add initial insertion without collision handling
+
+ Hashing/main.cpp | 42 ++++++++++++++++++++++++++++++++++++------
+ 1 file changed, 36 insertions(+), 6 deletions(-)
+
+commit 125ed8b22e1db34c289b5357f34128678bdffbea
+Author: Mohit <meditationmohit1234@gmail.com>
+Date:   2026-11-17 15:24:05 +0530
+
+    Implement division hash function
+
+ Hashing/main.cpp | 12 +++++++-----
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+
+commit 0281320041323ca12bcb87625389db7bb4e92723
+Author: Mohit <meditationmohit1234@gmail.com>
+Date:   2026-11-17 15:08:11 +0530
+
+    Add personalized dataset
+
+ Hashing/main.cpp | 17 +++++++++++++++++
+ 1 file changed, 17 insertions(+)
+
+commit 3530ab69b92785c1484fc0550d54ce193bb49b0b
+Author: Mohit <meditationmohit1234@gmail.com>
+Date:   2026-11-17 15:07:00 +0530
+
+    Initialize Hash table project
+
+ Hashing/main.cpp | 20 ++++++++++++--------
+ 1 file changed, 12 insertions(+), 8 deletions(-)
+
+commit 2ac6f3e4026b274c971d0a7a6f2ca8651c5c8c72
+Author: Mohit <meditationmohit1234@gmail.com>
+Date:   2026-11-17 14:50:13 +0530
+
+    Created skeleton of hash
+
+ Ds_IA_3/main.cpp | 24 ------------------------
+ Hashing/main.cpp | 14 ++++++++++++++
+ 2 files changed, 14 insertions(+), 24 deletions(-)
+
+commit 59c39c4b74aa6d96e46c27376c8b9b6fdb1ba2be
+Author: Mohit <meditationmohit1234@gmail.com>
+Date:   2026-11-17 14:45:19 +0530
+
+    Added hash table data
+
+ Ds_IA_3/main.cpp | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+
+commit 8841f4409c62bef016e48ccbf9afdf3eb3b59f10
+Author: Mohit <meditationmohit1234@gmail.com>
+Date:   2026-11-17 14:42:09 +0530
+
+    Created skeleton of hash file
+
+ Ds_IA_3/main.cpp | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit eff3d5373bf403e59481b88a31dcdfeafa5d9f06
+Author: Mohit <meditationmohit1234@gmail.com>
+Date:   2026-11-17 14:40:25 +0530
+
+    Deleted error file hash.cpp and main.cpp
+
+ Ds_IA_3/hash.cpp |  13 -------
+ Ds_IA_3/main.cpp | 107 -------------------------------------------------------
+ 2 files changed, 120 deletions(-)
+
+commit c8d7396d8d8ae82af77eb28d9f15b16b595a26ae
+Author: Mohit <meditationmohit1234@gmail.com>
+Date:   2026-11-17 14:34:35 +0530
+
+    Intialize hash table project
+
+ Ds_IA_3/hash.cpp |  13 +++++++
+ Ds_IA_3/main.cpp | 107 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 120 insertions(+)
